@@ -21,8 +21,7 @@ public class ChessMatch {
 	private Board board;
 	private boolean check;
 	private boolean checkMate;
-	private ChessPiece enPassantVulnerable;
-	
+	private ChessPiece enPassantVulnerable;	
 	private ChessPiece promoted;
 
 	private List<Piece> piecesOnTheBoard = new ArrayList<>();
